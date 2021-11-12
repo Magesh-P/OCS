@@ -1,0 +1,153 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*
+chrom browser number field
+*/
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/*
+firebox browser number field
+*/
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+body{
+	background: radial-gradient(circle at center, #c6e1e8, #566779 );
+	background-attachment: fixed;
+	font-family: 'Aldrich', sans-serif;
+}
+.main{
+	height: 1550px;
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 90%;
+	transform: translate(-50%,-50%);
+	background: linear-gradient(to bottom left, #3e4750 0%, #ffffff 100%);
+	opacity: .6;
+	margin-top: 20px;
+}
+h1{
+	margin: 3% 0% 0% 30%;
+}
+.formdiv{
+	width: 70%;
+	height: 315px;
+	margin-top: 3%;
+	margin-left: 15%;
+	background-color: transparent;
+	text-align: right;
+	margin-bottom: 5%;
+}
+.errorMsg
+{
+	font-size: 80%;
+	color: red;
+	margin: 0px 293px 0px 0px;
+}
+.errorMsg1{
+	margin: 0px 192px 0px 0px;
+	font-size: 80%;
+	color: red;
+}
+.clg{
+	margin-right: 10%;
+	margin-top: 5%;
+}
+.form1{
+	margin-right: 10%;
+	margin-top: 6%;
+	height: 10%;
+	border: none;
+	border-radius: 5px;
+	padding-left: 10px;
+	width: 40%;
+	margin-bottom: 4px;
+
+}
+.field{
+	width: 50%;
+	height: 140px;
+	text-align: right;
+}
+.mech{
+	margin: 0% 0% 0% 3%;
+}
+.mech1{
+	margin-top: 4%;
+	margin-right: 17%;
+	height: 20%;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.field1{
+	width: 50%;
+	height: 140px;
+	margin-left: 50%;
+	text-align: right;
+}
+.mech2{
+	margin-left: 5%;
+}
+.areain{
+	width: 250px;
+	height: 150px;
+	background-color: #fff;
+	resize: none;
+	margin-left: 30%;
+
+}
+p{
+	margin-left: 30%;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.submit{
+	width: 13%;
+	height: 40px;
+	position: absolute;
+	left: 80%;
+	top: 94%;
+	border: none;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+	background: linear-gradient(to bottom left, #3e4750 -13%, #3ecfff 97%);
+
+}
+.submit:hover{
+	background-color: #fff;
+	box-shadow: 0px 0px 8px 15px rgba(197,191,217,0.66);
+	background: #fff;
+	cursor: pointer;
+}
+input{
+	outline: none;
+}
+
+.form2{
+	margin-right: 10%;
+	margin-top: 6%;
+	height: 10%;
+	border: none;
+	border-radius: 5px;
+	padding-left: 10px;
+	width: 24%;
+	margin-bottom: 4px;
+	height: 30px;
+}

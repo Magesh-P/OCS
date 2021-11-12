@@ -1,0 +1,126 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: radial-gradient(circle at center, #c6e1e8, #566779 );
+	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Aldrich', sans-serif;
+
+}
+
+.personal{
+	width: 50%;
+	height: 500px;
+ 	background: linear-gradient(to bottom left, #3e4750 0%, #ffffff 100%);
+	opacity: .6;
+	margin-top: 20px;
+	margin-left: 25%;
+	padding: .5px;
+}
+.personal1{
+	width: 50%;
+	height: 80%;
+	background-color: transparent;
+	display: inline-block;
+
+}
+h1{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	padding: 15px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.di{
+	float: right;
+}
+.error{
+	width: 30%;
+	height: 5%;
+	color: red;
+	opacity: 0.8;
+	font-size: 13px;
+	margin: 10px -9px 4px 74px;
+}
+.inputbox{
+	width: 60%;
+	height: 6%;
+	border: none;
+	margin: 35px 0px -6px 70px;
+	padding-left: 20px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 15px;
+}
+::placeholder{
+	color: red;
+    opacity: 0.5;
+}
+.left{
+	margin-bottom: 0px;
+}
+.radi{
+	width: 5%;
+	height: 5%;
+	margin-left: 20%;
+}
+label{
+	margin-left: 40%;
+	font-size: 20px;	
+}
+.dropbtn {
+    
+    border-radius: 5px;
+    color: red;
+    height: 30px;
+    width: 300px;
+    font-size: 13px;
+    border: none;
+    margin-left: 20%;
+    margin-top: 28px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.address{
+	width: 80%;
+	height: 100px;
+	background-color: #fff;
+	margin-left: 10%;
+	color: red;
+	opacity: 0.8;
+	outline: none;
+}
+.add{
+	margin-left: 30px;
+	color: red;
+	opacity: 0.8;
+	border-right: 10px;
+
+}
+.submit{
+	width: 8%;
+	height: 40px;
+	position: absolute;
+	left: 85%;
+	top: 150%;
+	border: none;
+	font-size: 15px;
+	border-radius: 10px;
+	outline: none;
+	background: linear-gradient(to bottom left, #3e4750 -13%, #3ecfff 97%);
+}
+.submit:hover{
+	background-color: #fff;
+	box-shadow: 0px 0px 8px 15px rgba(197,191,217,0.66);
+	background: #fff;
+	cursor: pointer;
+}

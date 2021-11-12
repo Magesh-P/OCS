@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="/LOGIN/LoginForm.css">
+	<script type="text/javascript" src="/LOGIN/Login.js"></script>
+</head>
+<body>
+	<div class="box">
+	     <a href=""><button class="bton">About</button></a>
+	    <a href="/SIGNIN/SignInForm.html"><button class="bton">Sigin</button></a>
+	</div>
+			<div id="main">
+				<img >
+				    <form method = "post" action="/OCS/LoginPage"  onsubmit="return createAcc()">
+						<h1>OCS</h1>			
+						<input class="in" id = "userName" type="text" name="userName" placeholder="Name">
+						<p class="name" id = "nameError"></p>
+						<input class="in" id = "password" type="Password" name="password" placeholder="Password">
+						<p class="name" id = "passError"></p>
+						<input type = "submit" class="sigin" value = "SUBMIT">
+					</form>
+			</div>
+	  
+
+</body>
+</html>

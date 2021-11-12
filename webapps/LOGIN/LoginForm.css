@@ -1,0 +1,100 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+	background-image: radial-gradient(circle at center, #c6e1e8, #566779 );
+	background-repeat: no-repeat;
+	height: 100vh;
+	font-family: 'Aldrich', sans-serif;
+
+}
+#main{
+	width: 450px;
+	height: 550px;
+	background: linear-gradient(to bottom left, #3e4750 0%, #ffffff 100%);
+	opacity: .6;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);;
+
+}
+
+h1{
+	color: #000;
+	font-size: 40px;
+	margin-left: 38%;
+	letter-spacing: 3px;
+	margin-top: 50px;
+
+}
+.sigin{
+	border: none;
+	width: 20%;
+	height: 8%;
+	margin-left: 40%;
+	font-size: 15px;
+	border-radius: 10px;
+	outline: none;
+	background: linear-gradient(to bottom left, #3e4750 -13%, #3ecfff 97%);	
+}
+.sigin:hover{
+	background-color: #fff;
+	box-shadow: 0px 0px 8px 15px rgba(197,191,217,0.66);
+	background: #fff;
+	cursor: pointer;
+}
+.name{
+	width: 66%;
+	height: 5%;
+	background-color: transparent;
+	margin: 5px 0px 0px 89px;
+	font-size: 11px;
+	opacity: 0.8;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+.in{
+	margin: 45px -6px 0px 90px;
+	width: 60%;
+	height: 5%;
+	border-radius: 20px;
+	outline: none;
+	padding-left: 20px;
+	font-size: 17px;
+}
+
+.bton{
+	width: 40%;
+	height: 50%;
+	background-color: #000;
+	border: none;
+	border-radius: 10px;
+	opacity: 0.2;
+	margin-top: 10%;
+	outline: none;
+	color: #fff;	
+	font-size: 20px;
+}
+.box{
+	width: 30%;
+	height: 15%;
+	background-color: transparent;
+	margin-left: 68%;
+	text-align: center;
+
+}
+form{
+	height: 100%;
+	width: 100%;
+}
+::placeholder {
+    color: red;
+    opacity: 0.5; 
+}
+input {
+  color: #000 !important;
+  text-shadow: 0px 0px 0px #000 !important;
+}

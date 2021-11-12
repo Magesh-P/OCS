@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>College Details</title>
+	<link rel="stylesheet" type="text/css" href="/COLLEGEFORM/collegeForm.css">
+	<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+</head>
+<body>
+	<form method="post" action="/OCS/collegePage" onsubmit="return collegeDetailsCheck()">
+		<div class="main">
+			<h1>College Form</h1>
+			<div class="formdiv">			
+				<span class="clg">College Name:</span>
+				<input class="form1" type="text" name="collegeName" id="collegeName"><br>
+				<p class = "errorMsg" id="collegeNameErr"></p>
+				<span class="clg">Counsiling code:</span>
+				<input class="form1" type="number" name="CounsilingCode" id="CounsilingCode"><br>
+				<p class = "errorMsg" id="CounsilingCodeErr"></p>
+				<span class="clg">Phone No:</span>
+				<input class="form1" type="number" name="phoneNumber" id="phoneNumber"><br>
+				<p class = "errorMsg" id="phoneNumberErr"></p>
+				<span class="clg">Email Id:</span>
+				<input class="form1" type="Email" name="email" id="email"><br>
+				<p class = "errorMsg" id="emailErr"></p>
+			</div>
+			<fieldset class="field">
+				    <legend>Mech</legend>
+				    <span class="mech">Seat Avai</span>
+				    <input class="mech1" type="number" name="mechSeatAvai" id="mechSeatAvai"><br>
+				    <p class = "errorMsg1" id="mechSeatAvaiErr"></p>
+				    <span class="mech">Fees</span>
+				    <input class="mech1" type="number" name="mechFees" id="mechFees">
+				    <p class = "errorMsg1" id="mechFeesErr"></p>
+	  		</fieldset>
+
+	  		<fieldset class="field1">
+				    <legend>EEE</legend>
+				    <span class="mech">Seat Avai</span>
+				    <input class="mech1" type="number" name="eeeSeatAvai" id="eeeSeatAvai"><br>
+				    <p class = "errorMsg1" id="eeeSeatAvaiErr"></p>
+				    <span class="mech">Fees</span>
+				    <input class="mech1" type="number" name="eeeFees" id="eeeFees">
+				    <p class = "errorMsg1" id="eeeFeesErr"></p>
+	  		</fieldset>
+
+	  		<fieldset class="field">
+				    <legend>CEC</legend>
+				    <span class="mech">Seat Avai</span>
+				    <input class="mech1" type="number" name="cecSeatAvai" id="cecSeatAvai"><br>
+				    <p class = "errorMsg1" id="cecSeatAvaiErr"></p>
+				    <span class="mech">Fees</span>
+				    <input class="mech1" type="number" name="cecFees" id="cecFees">
+				    <p class = "errorMsg1" id="cecFeesErr"></p>
+	  		</fieldset>
+	  		<fieldset class="field1">
+				    <legend>COM</legend>
+				    <span class="mech">Seat Avai</span>
+				    <input class="mech1" type="number" name="comSeatAvai" id="comSeatAvai"><br>
+				    <p class = "errorMsg1" id="comSeatAvaiErr"></p>
+				    <span class="mech">Fees</span>
+				    <input class="mech1" type="number" name="comFees" id="comFees">
+				    <p class = "errorMsg1" id="comFeesErr"></p>
+	  		</fieldset>
+	  		<fieldset class="field">
+				    <legend>CIVIL</legend>
+				    <span class="mech">Seat Avai</span>
+				    <input class="mech1" type="number" name="civilSeatAvai" id="civilSeatAvai"><br>
+				    <p class = "errorMsg1" id="civilSeatAvaiErr"></p>
+				    <span class="mech">Fees</span>
+				    <input class="mech1" type="number" name="civilFees" id="civilFees">
+				    <p class = "errorMsg1" id="civilFeesErr"></p>
+	  		</fieldset>
+	  		<script type="text/javascript" src="/COLLEGEFORM/collegeForm.js"></script>
+	  		<p>Addres</p>
+	  		<textarea class="areain"  name="address" id="address"></textarea><br>
+	  		<p class = "errorMsg1" id="addressErr"></p>
+	  		<span class="clg">College Cut OFF:</span>
+			<input class="form2" type="number" name="collegeCutOff" id="collegeCutOff"><br>
+			<p class = "errorMsg" id="collegeCutOffErr"></p>	
+	  		<input class="submit" type="submit" value="submit" >
+		</div>
+	</form>
+
+</body>
+</html>

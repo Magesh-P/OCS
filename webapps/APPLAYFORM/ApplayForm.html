@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Applay Form</title>
+	<link rel="stylesheet" type="text/css" href="/APPLAYFORM/ApplayForm.css">
+	<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+	
+</head>
+
+
+<body>
+<form method = "post" action = "/OCS/applayform" onsubmit="return process()">
+	<div class="personal">
+		<h1>Presonal</h1>
+		<div class="personal1">
+			
+			<input class="inputbox" type="text" id = "userName" name="userName" placeholder="name">
+			<p class="error" id = "userNameErr"></p>
+			<input class="inputbox" type="email" name="email" id = "email" placeholder="Email ">
+			<p class="error" id = "emailErr" ></p>
+			
+			<label>Community</label><br>
+			<div class="dropdown">
+			 <select class = "dropbtn " id = "community" name = "community">
+				  <option>SC</option>
+				  <option selected>BC</option>
+				  <option>ST</option>
+				  <option>MBC</option>
+				  <option>others</option>
+			</select>
+			</div>
+		</div>
+
+		<div class="personal1 di">
+			<input class="inputbox left" type="date" name="dateOfBirth" id = "dateOfBirth" placeholder="date">
+			<p class="error d" id = "dateOfBirthErr"></p><br><br>
+			
+			<label>Gender</label><br>
+			<input class="radi" type="radio" name="gender" value="male" checked> Male<br>
+			<input class="radi" type="radio" name="gender" value="female"> Female<br>
+			<input class="radi" type="radio" name="gender" value="other"> Other  <br><br>
+			
+			<input class="inputbox" type="number" id = "phoneNum" name="phoneNum" placeholder="Phone No.">
+			<p class="error" id = "phoneNumErr"></p>
+		</div>
+	</div>
+	<div class="personal">
+		<h1>Education</h1>
+		<div class="personal1">
+			
+			<input class="inputbox" type="number" name="markSheetNo" id ="markSheetNo"  placeholder="Mark sheet No.">
+			<p class="error" id ="markSheetNoErr"></p>
+			<input class="inputbox" type="date" name="yearPassing" id = "yearPassing" placeholder="year of passing ">
+			<p class="error" id = "yearPassingErr"></p>
+		</div>
+
+
+		<div class="personal1 di">
+			
+			<input class="inputbox" type="number" name="che" id = "che" placeholder="chemistry">
+			<p class="error" id = "cheErr"></p>
+			<input class="inputbox" type="number" name="phy" id = "phy" placeholder="Physics ">
+			<p class="error" id = "phyErr"></p>
+			<input class="inputbox" type="number" name="math" id = "math" placeholder="Maths">
+			<p class="error" id = "mathErr"></p>
+		</div>
+		
+	</div>
+	<div class="personal">
+
+		<h1>Address</h1>
+		<div class="personal1">
+			
+			<input class="inputbox" type="text" id="national" name = "national" placeholder="Nationality">
+			<p class="error" id="nationalErr"></p>
+			<input class="inputbox" type="text" id="state" name = "state" placeholder="State">
+			<p class="error" id="stateErr"></p>
+			<input class="inputbox" type="text" id="dist" name = "dist" placeholder="District">
+			<p class="error" id="distErr"></p>
+		</div>
+
+		<div class="personal1 di">
+			
+			<input class="inputbox" type="number" name="pinCode" id = "pinCode" placeholder="Pin number">
+			<p class="error" id = "pinCodeErr"></p>
+			<p class="add">Address</p>
+			<textarea class="address"  name = "add" id = "add">
+			</textarea>
+			<p class="error" id = "addErr"></p>
+		</div>
+		
+	</div>
+	<input type="submit"  value = "submit" class="submit" >
+	<script type="text/javascript" src="/APPLAYFORM/ApplayForm.js"></script>
+</form>
+
+</body>
+</html>
